@@ -75,7 +75,7 @@ int main(){
 	}
 
 
-	cout << "\n\n3.: setprecision to display PI\n";
+	cout << "\n\n3.: setprecision to display 10+PI\n";
 	double f =13.14159;
 
 	cout << "3 digits: " << std::setprecision(3) << f << endl;
@@ -127,8 +127,8 @@ int main(){
 
 	// C++ std::tolower from locale: http://www.cplusplus.com/reference/locale/tolower/
 	cout << "C++ std::tolower from locale with iterator: ";
+	std::locale loc;
 	for (string::iterator it = src.begin(); it != src.end(); ++it){
-		std::locale loc;
 		cout << std::tolower(*it, loc);
 	}
 	cout << endl;
