@@ -1,0 +1,13 @@
+Windows Registry Editor Version 5.00
+
+; Setup context menu item for click on folders tree item:
+[HKEY_CURRENT_USER\Software\Classes\directory\shell\folder rar size\command]
+@="C:\\Users\\mb\\Desktop\\folderRarSize_cpp17\\bin\\folderRarSize.exe \"%1\""
+
+; Optional: specify an icon for the item:   
+; [HKEY_CURRENT_USER\Software\Classes\directory\shell\MenuItemNamePanel]
+;"icon"="C:\\yourpath\\appicon.ico"
+
+; Optional: specify a position in the menu
+[HKEY_CURRENT_USER\Software\Classes\directory\shell\folder rar size]
+"position"="Top"

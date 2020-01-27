@@ -1,0 +1,14 @@
+[B]*Usenet Backup*[/B]
+
+[b]Filesize: [/b]
+__SIZE__
+
+with 5% data recovery record
+
+[hide]
+[code=auto:0]
+
+ [/code]
+[/hide]
+
+[hide][/hide]
